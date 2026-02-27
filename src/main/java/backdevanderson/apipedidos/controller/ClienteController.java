@@ -58,6 +58,6 @@ public class ClienteController {
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deletarCliente(@PathVariable("id") UUID id){
         service.deletarCliente(id);
-        return ResponseEntity.ok().build();
+        return ResponseEntity.noContent().build();
     }
 }

@@ -9,7 +9,7 @@ public record ClienteRequestDTO(
         @Email(message = "Formato de e-mail inválido")
         @NotBlank(message = "Campo Obrigatório")
         String email,
-        @NotBlank
+        @NotBlank(message = "Campo Obrigatório")
         String telefone
 ) {
 }
