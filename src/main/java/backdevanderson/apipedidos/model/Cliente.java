@@ -39,7 +39,7 @@ public class Cliente {
     private String telefone;
 
     @CreatedDate
-    @Column(name = "data_cadastr0")
+    @Column(name = "data_cadastro")
     private LocalDateTime dataCadastro;
 
     @LastModifiedDate

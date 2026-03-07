@@ -44,7 +44,7 @@ public class Produto {
     private Integer estoque;
 
     @CreatedDate
-    @Column(name = "data_cadastr0")
+    @Column(name = "data_cadastro")
     private LocalDateTime dataCadastro;
 
     @LastModifiedDate
